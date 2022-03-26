@@ -1,0 +1,32 @@
+{
+  "name": "electron-vite-vue2-app",
+  "version": "0.0.1",
+  "description": "electron vite vue2 template",
+  "main": "electron/index.js",
+  "scripts": {
+    "start": "concurrently -k 'npm run dev' 'npm run electron'",
+    "release": "npm run build && electron-builder",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "electron": "wait-on tcp:3000 && cross-env NODE_ENV=development electron ."
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "cross-env": "^7.0.3",
+    "electron": "^17.2.0",
+    "electron-builder": "^22.14.13",
+    "sass": "^1.49.9",
+    "vite": "^2.8.0",
+    "wait-on": "^6.0.1"
+  },
+  "dependencies": {
+    "vite-plugin-vue2": "^1.9.3",
+    "vue": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "vue-router": "3.0.1",
+    "vuex": "3.0.1"
+  },
+  "author": "",
+  "license": "MIT"
+}
