@@ -53,6 +53,6 @@ npm run release
 ├── vite.config.js            #Vite的配置文件
 ├── vue-devtools              #集成Vue-devtools6.1.3 方便您调试Vue项目
 ├── dist                      #编译Vue时生成的目录
-└── release                   #打包发布的应用目录
+└── release                   #打包发布的应用在这个目录里
 
 ```

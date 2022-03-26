@@ -2,6 +2,15 @@
   "name": "electron-vite-vue2-app",
   "version": "0.0.1",
   "description": "electron vite vue2 template",
+  "keywords": [
+    "electron",
+    "vite",
+    "vue2",
+    "vue",
+    "vue devtools",
+    "electron-vue",
+    "electron-vite"
+  ],
   "main": "electron/index.js",
   "scripts": {
     "start": "concurrently -k 'npm run dev' 'npm run electron'",
@@ -27,6 +36,6 @@
     "vue-router": "3.0.1",
     "vuex": "3.0.1"
   },
-  "author": "",
+  "author": "Sunline<10775937@qq.com>",
   "license": "MIT"
 }
