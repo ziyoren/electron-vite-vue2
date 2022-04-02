@@ -8,7 +8,18 @@
 
 一个简单、高效的桌面应用开发样板工程，由Electron、Vite、Vue2等组成。集成了vue devtools工具，方便大家调试。
 
-## Quick Start
+## 特色
+* 使用JavaScript，HTML和CSS构建跨平台的桌面应用程序。
+
+* 主进程支持所有的Node.JS API。
+
+* 高性能的Chromium展示您的网页，让您的应用运行更流畅。
+
+* 极速的服务启动、轻量快速的热重载，让您的开发效率更快。
+
+* 易用、灵活、高效的VUE，丰富的生态支持。
+
+## 开始使用
 克隆本项目
 ```sh
 git clone git@github.com:ziyoren/electron-vite-vue2.git
@@ -34,7 +45,7 @@ npm start
 npm run release
 ```
 
-## Directory
+## 目录结构
 ```sh
 ├── README.md              
 ├── build
@@ -85,11 +96,13 @@ registry=https://registry.npmmirror.com/
 npm install
 ```
 
-## Link
+## 相关链接
 
 [Electron官网](https://www.electronjs.org/)
 
 [Vue官网](https://v2.vuejs.org/)
+
+[Vue.js视频教程](https://learning.dcloud.io/#/)
 
 [ViteJS官网](https://vitejs.cn/)
 
