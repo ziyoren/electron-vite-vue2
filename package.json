@@ -16,9 +16,10 @@
     "start": "concurrently -k 'npm run dev' 'npm run electron'",
     "release": "npm run build && electron-builder",
     "dev": "vite",
+    "dev:el": "cross-env NODE_ENV=development electron .",
     "build": "vite build",
     "preview": "vite preview",
-    "electron": "wait-on tcp:3000 && cross-env NODE_ENV=development electron ."
+    "electron": "wait-on tcp:3000 &&  npm run dev:el"
   },
   "devDependencies": {
     "concurrently": "^7.0.0",
@@ -32,8 +33,8 @@
   "dependencies": {
     "vite-plugin-vue2": "^1.9.3",
     "vue": "^2.6.14",
-    "vue-template-compiler": "^2.6.14",
     "vue-router": "3.0.1",
+    "vue-template-compiler": "^2.6.14",
     "vuex": "3.0.1"
   },
   "author": "Sunline<10775937@qq.com>",
