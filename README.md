@@ -96,6 +96,18 @@ registry=https://registry.npmmirror.com/
 npm install
 ```
 
+## 包下载问题
+构建时，如遇到无法下载electron相关的包，可以到npmmirror.com镜像站下载后放在缓存目录中。
+
+各操作系统包的位置如下：
+
+* `macOS` ~/Library/Caches/electron-builder
+
+* `linux` ~/.cache/electron-builder
+
+* `windows` %LOCALAPPDATA%\electron-builder\cache
+
+
 ## 相关链接
 
 [Electron官网](https://www.electronjs.org/)
